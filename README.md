@@ -7,3 +7,4 @@ a useful link, explaining all the topics below can be found at [In-depth guide t
 ## LORA
 ## LORA + Int 8bit quantization
 ## QLORA
+## Catastrophic forgetting
