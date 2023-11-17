@@ -7,6 +7,7 @@ Building a GPT from scratch
 a useful link, explaining all the topics below can be found at [In-depth guide to fine-tuning LLMs with LoRA and QLoRA](https://www.mercity.ai/blog-post/guide-to-fine-tuning-llms-with-lora-and-qlora#:~:text=QLoRA%20and%20LoRA%20both%20are,of%20a%20standalone%20finetuning%20technique.)
 ## Adapter Layers
 ## PEFT
+Check out the [PEFT](https://github.com/huggingface/peft) repo on the GitHub.
 ## LORA
 ## LORA + Int 8bit quantization
 ## QLORA
