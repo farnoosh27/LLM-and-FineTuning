@@ -1,7 +1,7 @@
 Building a GPT from scratch
 [Let's build GPT: from scratch, in code, spelled out.](https://www.youtube.com/watch?v=kCc8FmEb1nY)
 
-
+[Finetuning Large Language Models](https://www.deeplearning.ai/short-courses/finetuning-large-language-models/)
 
 # LLM-and-FineTuning
  One good source for interview questions would be [Master Your ML & DS Interview](https://www.mlstack.cafe/blog/large-language-models-llms-interview-questions)
