@@ -23,3 +23,7 @@ the math behind LORA
 ## LORA + Int 8bit quantization
 ## QLORA
 ## Catastrophic forgetting
+## what is LAMINI
+Lamini is the LLM platform for enterprises and developers to build customized, private models: easier, faster, and higher-performing than any general LLMs.
+
+
