@@ -8,6 +8,7 @@ According to a [medium article](https://medium.com/p/23473d763b91), there are in
 ### Self-supervised Learning
 ### Supervised Learning
 ### Reinforcement Learning
+You can find different fine-tuning tutorial at this [link](https://github.com/ashishpatel26/LLM-Finetuning)
 # LLM-and-FineTuning
  One good source for interview questions would be [Master Your ML & DS Interview](https://www.mlstack.cafe/blog/large-language-models-llms-interview-questions)
 
