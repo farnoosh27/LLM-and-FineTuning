@@ -33,3 +33,5 @@ the math behind LORA
 Lamini is the LLM platform for enterprises and developers to build customized, private models: easier, faster, and higher-performing than any general LLMs.
 
 
+## Parallelization
+In case you are interested in knowing about parallelization, follow the [link](https://towardsdatascience.com/how-to-build-an-llm-from-scratch-8c477768f1f9).
