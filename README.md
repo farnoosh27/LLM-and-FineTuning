@@ -1,7 +1,7 @@
 Building a GPT from scratch
 [Let's build GPT: from scratch, in code, spelled out.](https://www.youtube.com/watch?v=kCc8FmEb1nY)
 
-[Finetuning Large Language Models](https://www.deeplearning.ai/short-courses/finetuning-large-language-models/)
+[Finetuning Large Language Models](https://www.deeplearning.ai/short-courses/finetuning-large-language-models/): This course is done by OpenAI and teaches you how to fine-tune OpenAI models.
 
 ## 3 ways to do fine tuning
 According to a [medium article](https://medium.com/p/23473d763b91), there are in general three ways of **fine-tuning** LLMs:
