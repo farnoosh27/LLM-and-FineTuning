@@ -35,3 +35,49 @@ Lamini is the LLM platform for enterprises and developers to build customized, p
 
 ## Parallelization
 In case you are interested in knowing about parallelization, follow the [link](https://towardsdatascience.com/how-to-build-an-llm-from-scratch-8c477768f1f9).
+
+
+
+
+# Steps to fine-tune an LLM
+## choose a fine tuning task
+### text summarization
+### text classification
+
+## Prepare training dataset
+### pre-process the data
+#### tokenize
+#### choose DataCollatorWithPadding
+## Choose a base model
+### you can use bits-and-bytes to load quantized models
+
+```
+ bnb_config = BitsAndBytesConfig(
+     load_in_4bit=True,
+     bnb_4bit_quant_type="nf4",
+     bnb_4bit_compute_dtype= torch.float16,
+     bnb_4bit_use_double_quant=False,
+```
+
+
+
+### using lora_config to using parameter efficient fine-tuning
+(we freeze all the parameters, but we augment the model with additional parameters that are trainable)
+
+
+```
+peft_config = LoraConfig(task_type="SEQ_CLS",
+                        r=4,
+                        lora_alpha=32,
+                        lora_dropout=0.01,
+                        target_modules=["query"],)
+```
+* r: the rank of the update matrices, expressed in int. Lower rank results in smaller update matrices with fewer trainable parameters.
+* target_modules: The modules (for example, attention blocks) to apply the LoRA update matrices.
+* alpha: LoRA scaling factor.
+* bias: Specifies if the bias parameters should be trained. Can be 'none', 'all' or 'lora_only'.
+* modules_to_save: List of modules apart from LoRA layers to be set as trainable and saved in the final checkpoint. These typically include model’s custom head that is randomly initialized for the fine-tuning task.
+
+## Fine Tune a model via supervised learning 
+## Evaluate the performance
+### run inference
