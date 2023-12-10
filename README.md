@@ -25,7 +25,6 @@ Check out the [PEFT](https://github.com/huggingface/peft) repo on the GitHub.
 ## TRL
 ## Reinforcement Learning from Human Feedback (RLHF)
 ## LORA
-the math behind LORA
 ## LORA + Int 8bit quantization
 ## QLORA
 ## Catastrophic forgetting
